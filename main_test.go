@@ -4,8 +4,8 @@ import "testing"
 
 // テスト関数は `Test` で始める
 func TestHello(t *testing.T) {
-	got := Hello()
-	want := "Hello, world"
+	got := Hello("Chris")
+	want := "Hello, Chris"
 
 	if got != want {
 		// `t.Errorf` はテスト失敗を報告する
